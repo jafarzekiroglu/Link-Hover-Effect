@@ -31,7 +31,9 @@ li a{
   width: 0;
   height: 2px;
   background:#fff;
-  transition: width .3s;
+  transition: width .2s;
+  position:relative;
+  top: 5px;
 }
 
 .cool-link:hover::after{
